@@ -1,51 +1,90 @@
-# Astro on Netlify Platform Starter
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Official Website of ṢaḥCoin (SC) - A decentralized community-driven token on Polygon." />
+  <title>ṢaḥCoin (SC) - Official Site</title>
+  <link rel="icon" href="favicon.png" type="image/png" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #222;
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    nav a {
+      color: #ffcc00;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #222;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ṢaḥCoin (SC)</h1>
+    <p>The Future of Decentralized Community Currency</p>
+  </header>  <nav>
+    <a href="#about">About</a>
+    <a href="#tokenomics">Tokenomics</a>
+    <a href="#links">Links</a>
+  </nav>  <main>
+    <section id="about">
+      <h2>About ṢaḥCoin</h2>
+      <p>
+        ṢaḥCoin (SC) is a decentralized token on the Polygon blockchain, built for utility, governance, and real-world
+        community use. With transparent allocation and strong community support, SC aims to be a leading Arabic-focused Web3 project.
+      </p>
+    </section><section id="tokenomics">
+  <h2>Tokenomics</h2>
+  <ul>
+    <li><strong>Total Supply:</strong> 99,000,000 SC</li>
+    <li><strong>Public & Liquidity:</strong> 60%</li>
+    <li><strong>Team:</strong> 20%</li>
+    <li><strong>Marketing:</strong> 10%</li>
+    <li><strong>Partners:</strong> 5%</li>
+    <li><strong>Reserve:</strong> 5%</li>
+  </ul>
+</section>
 
-[Live Demo](https://astro-platform-starter.netlify.app/)
+<section id="links">
+  <h2>Official Links</h2>
+  <ul>
+    <li><a href="https://t.me/sahcoincommunity" target="_blank">Telegram</a></li>
+    <li><a href="https://quickswap.exchange/#/pool/156119" target="_blank">Liquidity Pool</a></li>
+    <li><a href="https://infograph.venngage.com/ps/go59C9ha330" target="_blank">Whitepaper</a></li>
+    <li><a href="https://polygonscan.com/token/0x7f447e933B0503bbC43E568e91B47e5Eef6e09C9" target="_blank">PolygonScan</a></li>
+  </ul>
+</section>
 
-A modern starter based on Astro.js, Tailwind, and [Netlify Core Primitives](https://docs.netlify.com/core/overview/#develop) (Edge Functions, Image CDN, Blob Store).
-
-## Astro Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## Deploying to Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/astro-platform-starter)
-
-## Developing Locally
-
-| Prerequisites                                                                |
-| :--------------------------------------------------------------------------- |
-| [Node.js](https://nodejs.org/) v18.14+.                                      |
-| (optional) [nvm](https://github.com/nvm-sh/nvm) for Node version management. |
-
-1. Clone this repository, then run `npm install` in its root directory.
-
-2. For the starter to have full functionality locally (e.g. edge functions, blob store), please ensure you have an up-to-date version of Netlify CLI. Run:
-
-```
-npm install netlify-cli@latest -g
-```
-
-3. Link your local repository to the deployed Netlify site. This will ensure you're using the same runtime version for both local development and your deployed site.
-
-```
-netlify link
-```
-
-4. Then, run the Astro.js development server via Netlify CLI:
-
-```
-netlify dev
-```
-
-If your browser doesn't navigate to the site automatically, visit [localhost:8888](http://localhost:8888).
+  </main>  <footer>
+    &copy; 2025 ṢaḥCoin (SC). Built by Khalifa M Alhathboor.
+  </footer>
+</body>
+</html>
